@@ -1,0 +1,16 @@
+name: Modpack Action
+on:
+  push:
+    paths:
+      - 'SomeMechanics/mods'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: SomeMechanics
+        path: SomeMechanics/mods

@@ -1,1 +1,3 @@
-# Base-Repository
+# Modpacks
+
+Just modpacks
