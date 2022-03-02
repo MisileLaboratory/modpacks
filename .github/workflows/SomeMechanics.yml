@@ -2,7 +2,8 @@ name: Modpack Action
 on:
   push:
     paths:
-      - 'SomeMechanics/mods'
+      - 'SomeMechanics/mods/*.jar'
+      - '.github/workflows/SomeMechanics.yml'
 
 jobs:
   build:
