@@ -1,10 +1,10 @@
 #!/bin/bash
 message=""
-for i in $(seq 1 $#)
+for i in "$@"
 do
-	echo "$message"
-	message="$ARGUMENTS['$i']"
+	message="$message $i"
 done
+message="${message:1}"
 if ["$message" == ""]
 	then
 		echo "no parameter"
