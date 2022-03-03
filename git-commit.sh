@@ -3,7 +3,7 @@ message=""
 for i in $(seq 1 $#)
 do
 	echo "$message"
-	message="$ARGUMENTS[$i]"
+	message="$ARGUMENTS['$i']"
 done
 if ["$message" == ""]
 	then
