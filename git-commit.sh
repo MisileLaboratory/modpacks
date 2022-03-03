@@ -1,8 +1,13 @@
 #!/bin/bash
-message=${0}
-if [ -z "$1" ] || [ $# -eq 0 ]
+message=""
+for i in $(seq 1 $#)
+do
+	echo "$message$i"
+	message="$message$i"
+done
+if ["$message" == ""]
 	then
-		echo "does not exist parameter"
+		echo "no parameter"
 		exit 1
 fi
 git add -A
