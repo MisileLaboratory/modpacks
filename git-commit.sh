@@ -2,8 +2,8 @@
 message=""
 for i in $(seq 1 $#)
 do
-	echo "$message$i"
-	message="$message$i"
+	echo "$message"
+	message="$ARGUMENTS[$i]"
 done
 if ["$message" == ""]
 	then
