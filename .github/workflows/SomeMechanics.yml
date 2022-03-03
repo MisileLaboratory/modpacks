@@ -1,4 +1,4 @@
-name: Modpack Action
+name: SomeMechanics
 on:
   push:
     paths:
