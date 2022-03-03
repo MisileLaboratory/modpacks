@@ -1,0 +1,17 @@
+name: BasicCraft
+on:
+  push:
+    paths:
+      - 'BasicCraft/mods/*.jar'
+      - '.github/workflows/BasicCraft.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: BasicCraft
+        path: BasicCraft/mods
