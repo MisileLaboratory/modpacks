@@ -5,7 +5,7 @@ do
 	message="$message $i"
 done
 message="${message:1}"
-if [ $message == "" ]
+if [ $# -eq 0 ]
 	then
 		echo "no parameter"
 		exit 1
