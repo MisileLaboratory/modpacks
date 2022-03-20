@@ -11,3 +11,4 @@ Just modpacks
 
 - SomeMechanics
     - [SomeMechanics 1](https://github.com/MisileLab/modpacks/releases/download/archivesomemechanics/SomeMechanics.zip)
+    - [SomeMechanics 2](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics/main/SomeMechanics.zip)

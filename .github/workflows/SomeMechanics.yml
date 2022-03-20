@@ -2,8 +2,8 @@ name: BasicCraft
 on:
   push:
     paths:
-      - 'modpacks/BasicCraft/mods/*.jar'
-      - '.github/workflows/BasicCraft.yml'
+      - 'modpacks/SomeMechanics/mods/*.jar'
+      - '.github/workflows/SomeMechanics.yml'
 
 jobs:
   build:
@@ -13,5 +13,5 @@ jobs:
     - name: upload artifact
       uses: actions/upload-artifact@v3
       with:
-        name: BasicCraft
-        path: modpacks/BasicCraft/mods
+        name: SomeMechanics
+        path: modpacks/SomeMechanics/mods
