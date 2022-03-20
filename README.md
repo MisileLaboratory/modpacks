@@ -2,7 +2,12 @@
 
 Just modpacks
 
-## Installation
+## Modpacks
 
+### Active modpacks
 [BasicCraft](https://nightly.link/MisileLab/modpacks/workflows/BasicCraft/main/BasicCraft.zip)  
-[SomeMechanics](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics/main/SomeMechanics.zip)
+
+### Modpack series
+
+- SomeMechanics
+[SomeMechanics 1](https://github.com/MisileLab/modpacks/releases/download/archivesomemechanics/SomeMechanics.zip)
