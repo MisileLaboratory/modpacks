@@ -1,4 +1,5 @@
 # Modpacks
+![License](https://img.shields.io/badge/license-misilelab-green?style=for-the-badge)
 
 Just modpacks
 
@@ -6,7 +7,8 @@ Just modpacks
 
 ### Active modpacks
 [BasicCraft](https://nightly.link/MisileLab/modpacks/workflows/BasicCraft/main/BasicCraft.zip)  
-[SomeMechanics 2](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics/main/SomeMechanics.zip)
+[SomeMechanics 2](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics/main/SomeMechanics.zip)  
+[SomeMechanics 1.5](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics1-5/main/SomeMechanics%201.5.zip)
 
 ### Modpack archives
 
