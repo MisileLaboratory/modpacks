@@ -2,7 +2,7 @@
 
 Some Mechanics mods
 
-Forge / 1.18.2 / RAM 4~8GB
+Forge 1.18.2
 
 ## Legacy modpacks
 - [SomeMechanics 1](https://github.com/MisileLab/modpacks/releases/tag/archivesomemechanics)
