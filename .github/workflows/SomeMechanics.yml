@@ -1,4 +1,4 @@
-name: BasicCraft
+name: SomeMechanics
 on:
   push:
     paths:
