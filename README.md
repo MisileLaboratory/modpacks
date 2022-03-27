@@ -7,8 +7,10 @@ Just modpacks
 
 ### Active modpacks
 [BasicCraft](https://nightly.link/MisileLab/modpacks/workflows/BasicCraft/main/BasicCraft.zip)  
+[BetterBuild](https://nightly.link/MisileLab/modpacks/workflows/BetterBuild/main/BetterBuild.yml)
 [SomeMechanics 2](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics/main/SomeMechanics.zip)  
 [SomeMechanics 1.5](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics1-5/main/SomeMechanics%201.5.zip)
+
 
 ### Modpack archives
 

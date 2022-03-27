@@ -1,0 +1,17 @@
+name: BetterBuild
+on:
+  push:
+    paths:
+      - 'modpacks/BetterBuild/mods/*.jar'
+      - '.github/workflows/BetterBuild.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: BetterBuild
+        path: modpacks/BetterBuild/mods
