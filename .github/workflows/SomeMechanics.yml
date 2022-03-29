@@ -2,6 +2,7 @@ name: SomeMechanics
 on:
   push:
     paths:
+      - 'fk'
       - 'modpacks/SomeMechanics/mods/*.jar'
       - '.github/workflows/SomeMechanics.yml'
 
