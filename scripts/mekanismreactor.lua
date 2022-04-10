@@ -1,7 +1,7 @@
 reactormodems = {0, 1, 3, 8, 6, 2, 7, 5, 4}
 reactors = {}
 reactornumber = 1
-numberofstring = 7
+numberofstring = 13
 numberofstring = 19 - numberofstring
 consolestring = ""
 -- full screen width is 51, height is 19
@@ -19,7 +19,7 @@ while true do
 	end
 	local timeout = os.startTimer(1)
 	for i in reactormodems do
-		if getDamagePercent(i) >= 40 then
+		if isHighTemperature(i) == true then
 			i.scram()
 		end
 	end
@@ -40,6 +40,13 @@ while true do
 		print("                        status: " .. getStatusString(i))
 		print("                        damage status: " .. damagestring)
 		print("                        damage percent: " .. tostring(i.getDamagePercentage()))
+		print("                        heat: " .. tostring(i.getTemperature()))
+		print("                        fuel amount: " .. tostring(i.getFuel()) .. "/" .. tostring(i.getFuelCapacity()))
+		print("                        fuel percentage: " .. tostring(i.getFuelFilledPercentage()))
+		print("                        coolant amount: " .. tostring(i.getCoolant()) .. "/" .. tostring(i.getCoolantCapacity()))
+		print("                        coolant percentage: " .. tostring(i.getCoolantFilledPercentage()))
+		print("                        waste amount: " .. tostring(i.getWaste()) .. "/" .. tostring(i.getWasteCapacity()))
+		print("                        waste percentage: " .. tostring(i.getWasteFilledPercentage()))
 		print("===================================================")
 		if key ~= nil then
 			if key == "enter" then
@@ -62,7 +69,6 @@ while true do
 	else
 		print("reactor is nil")
 	end
-	os.sleep(0.5)
 end
 
 function getDamagePercent(reactor) 
@@ -74,11 +80,19 @@ function getDamagePercent(reactor)
 end
 
 function getStatusString(reactor)
-	if reactor.isForceDisabled() then
+	if reactor.isForceDisabled() == true then
 		return "Force disabled"
 	elseif reactor.getStatus() == true then
 		return "enabled"
 	else 
 		return "disabled"
+	end
+end
+
+function isHighTemperature(reactor)
+	if reactor.isForceDisabled() == false and reactor.getStatus() == true and reactor.getTemperature() <= 1000 then
+		return true
+	else
+		return false
 	end
 end
