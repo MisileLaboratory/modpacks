@@ -50,7 +50,13 @@ while true do
 		print("===================================================")
 		if key ~= nil then
 			if key == "enter" then
-				reactornumber = tonumber(consolestring)
+				if consolestring == "select " then
+					reactornumber = tonumber(consolestring:gsub('select ', ''))
+				elseif consolestring == "disable " then
+					reactor.scram()
+				elseif consolestring == "enable " then
+					reactor.activate()
+				end
 				consolestring = ""
 			elseif key == "backspace" then
 				consolestring = consolestring:sub(1, -2)
