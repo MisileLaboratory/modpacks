@@ -18,12 +18,12 @@ while true do
 		key = nil
 	end
 	local timeout = os.startTimer(1)
-	for i in reactormodems do
+	for i in reactors do
 		if isHighTemperature(i) == true then
 			i.scram()
 		end
 	end
-	reactor = reactormodems[reactornumber]
+	reactor = reactors[reactornumber]
 	if reactor ~= nil then
 		local damage = getDamagePercent(reactor)
 		damagestring = "not meltdown"
