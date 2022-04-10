@@ -23,7 +23,7 @@ while true do
 			i.scram()
 		end
 	end
-	local reactor = reactormodems[reactornumber]
+	reactor = reactormodems[reactornumber]
 	if reactor ~= nil then
 		local damage = getDamagePercent(reactor)
 		damagestring = "not meltdown"
