@@ -28,8 +28,8 @@ while true do
 		local damage = getDamagePercent(reactor)
 		damagestring = "not meltdown"
 		if damage < 10 then
-			if redstone.getOutput("back") then
-				redstone.setOutput("back", false)
+			if redstone.getOutput("front") then
+				redstone.setOutput("front", false)
 			end
 		elseif damage >= 10 and damage < 30 then
 			damagestring = "meltdown"
