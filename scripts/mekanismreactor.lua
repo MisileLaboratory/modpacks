@@ -9,6 +9,32 @@ for i, i2 in ipairs(reactormodems) do
 	reactors[i] = peripheral.wrap("fissionReactorLogicAdapter_" .. i2)
 end
 
+function getDamagePercent(reactor) 
+	if reactor.isForceDisabled() == true or reactor.getStatus() == false then
+		return 0
+	else
+		return reactor.getDamagePercentage()
+	end
+end
+
+function getStatusString(reactor)
+	if reactor.isForceDisabled() == true then
+		return "Force disabled"
+	elseif reactor.getStatus() == true then
+		return "enabled"
+	else 
+		return "disabled"
+	end
+end
+
+function isHighTemperature(reactor)
+	if reactor.isForceDisabled() == false and reactor.getStatus() == true and reactor.getTemperature() <= 1000 then
+		return true
+	else
+		return false
+	end
+end
+
 while true do
 	event = {os.pullEvent()}
 	if event[1] == "key" then
@@ -41,11 +67,11 @@ while true do
 		print("                        damage status: " .. damagestring)
 		print("                        damage percent: " .. tostring(i.getDamagePercentage()))
 		print("                        heat: " .. tostring(i.getTemperature()))
-		print("                        fuel amount: " .. tostring(i.getFuel()) .. "/" .. tostring(i.getFuelCapacity()))
+		print("                        fuel amount: " .. tostring(i.getFuel()["amount"]) .. "/" .. tostring(i.getFuelCapacity()))
 		print("                        fuel percentage: " .. tostring(i.getFuelFilledPercentage()))
-		print("                        coolant amount: " .. tostring(i.getCoolant()) .. "/" .. tostring(i.getCoolantCapacity()))
+		print("                        coolant amount: " .. tostring(i.getCoolant()["amount"]) .. "/" .. tostring(i.getCoolantCapacity()))
 		print("                        coolant percentage: " .. tostring(i.getCoolantFilledPercentage()))
-		print("                        waste amount: " .. tostring(i.getWaste()) .. "/" .. tostring(i.getWasteCapacity()))
+		print("                        waste amount: " .. tostring(i.getWaste()["amount"]) .. "/" .. tostring(i.getWasteCapacity()))
 		print("                        waste percentage: " .. tostring(i.getWasteFilledPercentage()))
 		print("===================================================")
 		if key ~= nil then
@@ -74,31 +100,5 @@ while true do
 		end
 	else
 		print("reactor is nil")
-	end
-end
-
-function getDamagePercent(reactor) 
-	if reactor.isForceDisabled() == true or reactor.getStatus() == false then
-		return 0
-	else
-		return reactor.getDamagePercentage()
-	end
-end
-
-function getStatusString(reactor)
-	if reactor.isForceDisabled() == true then
-		return "Force disabled"
-	elseif reactor.getStatus() == true then
-		return "enabled"
-	else 
-		return "disabled"
-	end
-end
-
-function isHighTemperature(reactor)
-	if reactor.isForceDisabled() == false and reactor.getStatus() == true and reactor.getTemperature() <= 1000 then
-		return true
-	else
-		return false
 	end
 end
