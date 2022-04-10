@@ -1,4 +1,4 @@
-reactormodems = {0, 1, 3, 8, 6, 2, 7, 5, 4}
+reactormodems = {9, 10, 11, 12, 13, 14}
 reactors = {}
 reactornumber = 1
 numberofstring = 13
