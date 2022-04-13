@@ -19,7 +19,3 @@ Just modpacks
 
 - SomeMechanics
     - [SomeMechanics 1](https://github.com/MisileLab/modpacks/releases/download/archivesomemechanics/SomeMechanics.zip)
-
-## Scripts
-
-You will need 2x2 monitor for my script.

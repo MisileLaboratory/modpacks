@@ -1,10 +1,10 @@
 reactormodems = {9, 10, 11, 12, 13, 14}
 reactors = {}
 reactornumber = 1
-numberofstring = 11 + 5
+numberofstring = 19 + 5
 numberofstring = 95 - numberofstring
 consolestring = ""
--- full screen height is 95
+-- full screen height is 19
 for i, i2 in ipairs(reactormodems) do
     reactors[i] = peripheral.wrap("fissionReactorLogicAdapter_" .. i2)
 end
