@@ -1,9 +1,6 @@
 reactormodems = {9, 10, 11, 12, 13, 14}
 reactors = {}
 reactornumber = 1
-numberofstring = 13
-numberofstring = 19 - numberofstring
-consolestring = ""
 -- full screen height is 19
 for i, i2 in ipairs(reactormodems) do
     reactors[i] = peripheral.wrap("fissionReactorLogicAdapter_" .. i2)
@@ -59,6 +56,9 @@ while true do
             damagestring = "meltdown"
             redstone.setOutput("back", true)
         end
+        for _=1,19 do
+            add_string(a, "                                               ")
+        end
         local a = ""
         a = add_string(a, "reactor: " .. tostring(reactornumber))
         a = add_string(a, "status: " .. getStatusString(reactor))
@@ -73,9 +73,6 @@ while true do
         a = add_string(a, "waste percentage: " .. tostring(reactor.getWasteFilledPercentage() * 100))
         a = add_string(a, "turbine steam amount:" .. tostring(turbine.getSteam()["amount"]) .. "/" .. tostring(turbine.getSteamCapacity()))
         a = add_string(a, "turbine steam percentage" .. tostring(turbine.getSteamFilledPercentage()))
-        for _=1,numberofstring do
-            add_string(a, "                                               ")
-        end
         print(a)
     else
         print("reactor is nil")
