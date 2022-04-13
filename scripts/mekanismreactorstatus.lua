@@ -27,8 +27,8 @@ function getStatusString(reactor)
     end
 end
  
-function isHighEnergy(turbine)
-    if reactor.isForceDisabled() == false and reactor.getStatus() == true and turbine.getSteamFilledPercentage() <= 60 then
+function isHighSteam(turbine)
+    if turbine.getSteamFilledPercentage() <= 60 then
         return true
     else
         return false
@@ -37,7 +37,7 @@ end
  
 while true do
     local turbine = peripheral.wrap("turbineValve_0")
-    local highenergy = isHighEnergy(turbine)
+    local highenergy = isHighSteam(turbine)
     for i2 in reactors do
         if highenergy == true then
             i2.scram()
