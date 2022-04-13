@@ -38,8 +38,8 @@ end
 while true do
     local turbine = peripheral.wrap("turbineValve_0")
     local highenergy = isHighSteam(turbine)
-    for i2 in reactors do
-        if highenergy == true and i2.getStatus() == false then
+    for _, i2 in pairs(reactors) do
+        if highenergy == true and i2.getStatus() == true then
             i2.scram()
         end
     end
