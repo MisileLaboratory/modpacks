@@ -1,8 +1,6 @@
 reactormodems = {9, 10, 11, 12, 13, 14}
 reactors = {}
 reactornumber = 1
-numberofstring = 13 + 5
-numberofstring = 19 - numberofstring
 consolestring = ""
 -- full screen height is 19
 for i, i2 in ipairs(reactormodems) do
@@ -73,10 +71,8 @@ while true do
         a = add_string(a, "waste percentage: " .. tostring(reactor.getWasteFilledPercentage() * 100))
         a = add_string(a, "turbine steam amount:" .. tostring(turbine.getSteam()["amount"]) .. "/" .. tostring(turbine.getSteamCapacity()))
         a = add_string(a, "turbine steam percentage" .. tostring(turbine.getSteamFilledPercentage()))
-        for _=1,numberofstring do
-            add_string(a, "                                               ")
-        end
         print(a)
+        shell.run("clear")
     else
         print("reactor is nil")
     end
