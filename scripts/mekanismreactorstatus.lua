@@ -38,7 +38,7 @@ end
 while true do
     local turbine = peripheral.wrap("")
     local highenergy = isHighEnergy(turbine)
-    for _, i2 in ipairs(reactors) do
+    for i2 in reactors do
         if highenergy == true then
             i2.scram()
         end
