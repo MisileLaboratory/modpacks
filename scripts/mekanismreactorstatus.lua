@@ -1,5 +1,7 @@
 reactormodems = {9, 10, 11, 12, 13, 14}
 reactors = {}
+numberofstring = 13
+numberofstring = 19 - numberofstring
 reactornumber = 1
 -- full screen height is 19
 for i, i2 in ipairs(reactormodems) do
@@ -33,7 +35,7 @@ function isHighSteam(turbine)
 end
 
 function add_string(string, string2)
-    return string .. string2 .. "\n"
+    return "\n" .. string .. string2
 end
  
 while true do
@@ -73,7 +75,9 @@ while true do
         a = add_string(a, "waste percentage: " .. tostring(reactor.getWasteFilledPercentage() * 100))
         a = add_string(a, "turbine steam amount:" .. tostring(turbine.getSteam()["amount"]) .. "/" .. tostring(turbine.getSteamCapacity()))
         a = add_string(a, "turbine steam percentage" .. tostring(turbine.getSteamFilledPercentage()))
-        print(a)
+        for _=1,numberofstring do
+			print("                                               ")
+		end
     else
         print("reactor is nil")
     end
