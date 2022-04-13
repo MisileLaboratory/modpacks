@@ -33,9 +33,9 @@ function isHighSteam(turbine)
         return false
     end
 end
-
+ 
 function add_string(string, string2)
-    return "\n" .. string .. string2
+    return string .. string2 .. "\n"
 end
  
 while true do
@@ -58,9 +58,6 @@ while true do
             damagestring = "meltdown"
             redstone.setOutput("back", true)
         end
-        for _=1,19 do
-            print("                                               ")
-        end
         local a = ""
         a = add_string(a, "reactor: " .. tostring(reactornumber))
         a = add_string(a, "status: " .. getStatusString(reactor))
@@ -75,9 +72,10 @@ while true do
         a = add_string(a, "waste percentage: " .. tostring(reactor.getWasteFilledPercentage() * 100))
         a = add_string(a, "turbine steam amount:" .. tostring(turbine.getSteam()["amount"]) .. "/" .. tostring(turbine.getSteamCapacity()))
         a = add_string(a, "turbine steam percentage" .. tostring(turbine.getSteamFilledPercentage()))
+        print(a)
         for _=1,numberofstring do
-			print("                                               ")
-		end
+            print()
+        end
     else
         print("reactor is nil")
     end
