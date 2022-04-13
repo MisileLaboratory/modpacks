@@ -36,7 +36,7 @@ function isHighEnergy(turbine)
 end
  
 while true do
-    local turbine = peripheral.wrap("")
+    local turbine = peripheral.wrap("turbineValve_0")
     local highenergy = isHighEnergy(turbine)
     for i2 in reactors do
         if highenergy == true then
