@@ -70,8 +70,8 @@ while true do
         a = add_string(a, "coolant percentage: " .. tostring(reactor.getCoolantFilledPercentage() * 100))
         a = add_string(a, "waste amount: " .. tostring(reactor.getWaste()["amount"]) .. "/" .. tostring(reactor.getWasteCapacity()))
         a = add_string(a, "waste percentage: " .. tostring(reactor.getWasteFilledPercentage() * 100))
-        a = add_string(a, "turbine steam amount:" .. tostring(turbine.getSteam()["amount"]) .. "/" .. tostring(turbine.getSteamCapacity()))
-        a = add_string(a, "turbine steam percentage" .. tostring(turbine.getSteamFilledPercentage()))
+        a = add_string(a, "turbine steam amount: " .. tostring(turbine.getSteam()["amount"]) .. "/" .. tostring(turbine.getSteamCapacity()))
+        a = add_string(a, "turbine steam percentage: " .. tostring(turbine.getSteamFilledPercentage()))
         print(a)
         for _=1,numberofstring do
             print()
