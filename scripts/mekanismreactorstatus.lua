@@ -57,7 +57,7 @@ while true do
             redstone.setOutput("back", true)
         end
         for _=1,19 do
-            add_string(a, "                                               ")
+            print(a, "                                               ")
         end
         local a = ""
         a = add_string(a, "reactor: " .. tostring(reactornumber))
