@@ -1,8 +1,8 @@
 reactormodems = {9, 10, 11, 12, 13, 14}
 reactors = {}
 reactornumber = 1
-numberofstring = 13 + 5
-numberofstring = 95 - numberofstring
+numberofstring = 13
+numberofstring = 19 - numberofstring
 consolestring = ""
 -- full screen height is 19
 for i, i2 in ipairs(reactormodems) do
