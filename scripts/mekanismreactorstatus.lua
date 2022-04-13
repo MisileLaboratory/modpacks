@@ -34,6 +34,10 @@ function isHighSteam(turbine)
         return false
     end
 end
+
+function add_string(string, string2)
+    return string .. string2 .. "\n"
+end
  
 while true do
     local turbine = peripheral.wrap("turbineValve_0")
@@ -55,22 +59,24 @@ while true do
             damagestring = "meltdown"
             redstone.setOutput("back", true)
         end
-        print("reactor: " .. tostring(reactornumber))
-        print("status: " .. getStatusString(reactor))
-        print("damage status: " .. damagestring)
-        print("damage percent: " .. tostring(reactor.getDamagePercent() * 100))
-        print("heat: " .. tostring(reactor.getTemperature()))
-        print("fuel amount: " .. tostring(reactor.getFuel()["amount"]) .. "/" .. tostring(reactor.getFuelCapacity()))
-        print("fuel percentage: " .. tostring(reactor.getFuelFilledPercentage() * 100))
-        print("coolant amount: " .. tostring(reactor.getCoolant()["amount"]) .. "/" .. tostring(reactor.getCoolantCapacity()))
-        print("coolant percentage: " .. tostring(reactor.getCoolantFilledPercentage() * 100))
-        print("waste amount: " .. tostring(reactor.getWaste()["amount"]) .. "/" .. tostring(reactor.getWasteCapacity()))
-        print("waste percentage: " .. tostring(reactor.getWasteFilledPercentage() * 100))
-        print("turbine steam amount:" .. tostring(turbine.getSteam()) .. "/" .. tostring(turbine.getSteamCapacity()))
-        print("turbine steam percentage" .. tostring(turbine.getSteamFilledPercentage()))
+        local a = ""
+        a = add_string(a, "reactor: " .. tostring(reactornumber))
+        a = add_string(a, "status: " .. getStatusString(reactor))
+        a = add_string(a, "damage status: " .. damagestring)
+        a = add_string(a, "damage percent: " .. tostring(reactor.getDamagePercent() * 100))
+        a = add_string(a, "heat: " .. tostring(reactor.getTemperature()))
+        a = add_string(a, "fuel amount: " .. tostring(reactor.getFuel()["amount"]) .. "/" .. tostring(reactor.getFuelCapacity()))
+        a = add_string(a, "fuel percentage: " .. tostring(reactor.getFuelFilledPercentage() * 100))
+        a = add_string(a, "coolant amount: " .. tostring(reactor.getCoolant()["amount"]) .. "/" .. tostring(reactor.getCoolantCapacity()))
+        a = add_string(a, "coolant percentage: " .. tostring(reactor.getCoolantFilledPercentage() * 100))
+        a = add_string(a, "waste amount: " .. tostring(reactor.getWaste()["amount"]) .. "/" .. tostring(reactor.getWasteCapacity()))
+        a = add_string(a, "waste percentage: " .. tostring(reactor.getWasteFilledPercentage() * 100))
+        a = add_string(a, "turbine steam amount:" .. tostring(turbine.getSteam()) .. "/" .. tostring(turbine.getSteamCapacity()))
+        a = add_string(a, "turbine steam percentage" .. tostring(turbine.getSteamFilledPercentage()))
         for _=1,numberofstring do
-            print("                                               ")
+            add_string(a, "                                               ")
         end
+        print(a)
     else
         print("reactor is nil")
     end
