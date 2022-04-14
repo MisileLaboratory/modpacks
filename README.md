@@ -7,9 +7,7 @@ Just modpacks
 
 ### Active modpacks
 [BasicCraft](https://nightly.link/MisileLab/modpacks/workflows/BasicCraft/main/BasicCraft.zip)  
-[BetterBuild](https://nightly.link/MisileLab/modpacks/workflows/BetterBuild/main/BetterBuild.zip)  
 [SomeMechanics 2](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics/main/SomeMechanics.zip)  
-[SomeMechanics 1.5](https://nightly.link/MisileLab/modpacks/workflows/SomeMechanics1-5/main/SomeMechanics%201.5.zip)
 
 
 ### Modpack archives
@@ -19,3 +17,6 @@ Just modpacks
 
 - SomeMechanics
     - [SomeMechanics 1](https://github.com/MisileLab/modpacks/releases/download/archivesomemechanics/SomeMechanics.zip)
+    - [SomeMechanics 1.5](https://github.com/MisileLab/modpacks/suites/6123893403/artifacts/213135932)
+
+BetterBuild won't be update for now.
