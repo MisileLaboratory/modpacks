@@ -1,6 +1,8 @@
 node {
   agent {
-    docker { image 'crazymax/7zip:edge' }
+    docker { 
+      image 'crazymax/7zip:edge' 
+    }
   }
   stage('zip') {
     dir('modpacks') {
