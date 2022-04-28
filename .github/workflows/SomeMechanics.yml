@@ -1,0 +1,17 @@
+name: SomeMechanics
+on:
+  push:
+    paths:
+      - 'modpacks/SomeMechanics/mods/*.jar'
+      - '.github/workflows/SomeMechanics.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: SomeMechanics
+        path: modpacks/SomeMechanics/mods
