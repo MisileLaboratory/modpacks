@@ -2,9 +2,6 @@ node {
   agent {
     docker { image 'crazymax/7zip:edge' }
   }
-  stage('clone') {
-    git 'https://github.com/MisileLab/modpacks'
-  }
   stage('zip') {
     dir('modpacks') {
       sh '7za a -t7z basiccraft.7z BasicCraft/mods/*'
