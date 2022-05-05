@@ -9,9 +9,11 @@ pipeline {
           alias 7zz="/home/kakao9992/7zip/7zz"
           7zz a -t7z basiccraft.7z BasicCraft/mods/*
           7zz a -t7z somemechaincs.7z SomeMechanics/mods/*
+          7zz a -t7z fewmechanics.7z FewMechanics/mods/*
           '''
           archiveArtifacts 'basiccraft.7z'
           archiveArtifacts 'somemechaincs.7z'
+          archiveArtifacts 'fewmechanics.7z'
         }
       }
     }
