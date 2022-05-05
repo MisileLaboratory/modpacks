@@ -1,4 +1,4 @@
-# Misilelab modpacks license v1.6
+# Misilelab modpacks license v1.7
 
 Default author information : Modpacks by MisileLaboratory
 
