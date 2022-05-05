@@ -1,9 +1,8 @@
-node {
-  pipeline {
-    docker { 
+
+pipeline {
+  docker { 
       image 'crazymax/7zip:edge' 
     }
-  }
   stage('zip') {
     dir('modpacks') {
       sh '7za a -t7z basiccraft.7z BasicCraft/mods/*'
