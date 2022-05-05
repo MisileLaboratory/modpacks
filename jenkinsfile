@@ -5,6 +5,7 @@ pipeline {
     stage('zip') {
       steps {
         dir('modpacks') {
+          sh 'alias 7zz="/home/kakao9992/7zip/7zz"'
           sh '7zz a -t7z basiccraft.7z BasicCraft/mods/*'
           sh '7zz a -t7z somemechaincs.7z SomeMechanics/mods/*'
           archiveArtifacts 'basiccraft.7z'
