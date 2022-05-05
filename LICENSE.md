@@ -1,6 +1,6 @@
-# Misilelab license v1.6
+# Misilelab modpacks license v1.6
 
-Author information : Modpacks by MisileLaboratory
+Default author information : Modpacks by MisileLaboratory
 
 ## derivative works condition
 
