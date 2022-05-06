@@ -1,6 +1,11 @@
 
 pipeline {
-  agent { docker { image "crazymax/7zip:edge" }, label { "pi" } }
+  agent { 
+    docker { 
+      image "crazymax/7zip:edge"
+      label "pi"
+    }
+  }
   stages {
     stage('zip') {
       steps {
