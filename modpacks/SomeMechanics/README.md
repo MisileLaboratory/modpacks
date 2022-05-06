@@ -1,8 +1,5 @@
-# SomeMechanics 2
+# SomeMechanics 3
 
-Some Mechanics mods
+Some mechanic mods
 
 Forge 1.18.2
-
-## Legacy modpacks
-- [SomeMechanics 1](https://github.com/MisileLab/modpacks/releases/tag/archivesomemechanics)
