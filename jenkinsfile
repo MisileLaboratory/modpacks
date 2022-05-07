@@ -4,7 +4,7 @@ pipeline {
     stage('BasicCraft') {
       when { 
         anyOf { 
-          changeset "modpacks/BasicCraft/*"
+          changeset "modpacks/BasicCraft/**"
           changeset "jenkinsfile" 
         } 
       }
@@ -17,7 +17,7 @@ pipeline {
     stage('SomeMechanics') {
       when { 
         anyOf { 
-          changeset "modpacks/SomeMechanics/*"
+          changeset "modpacks/SomeMechanics/**"
           changeset "jenkinsfile" 
         } 
       }
