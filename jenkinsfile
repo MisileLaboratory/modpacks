@@ -13,28 +13,28 @@ pipeline {
       when { anyOf { changeset "modpacks/SomeMechanics/*"} }
       steps {
         dir('modpacks') {
-          sh "/home/kakao9992/7zip/7zz a -t7z somemechaincs.7z SomeMechanics/mods/*"
+          sh "/home/kakao9992/7zip/7zz a -t7z somemechanics.7z SomeMechanics/mods/*"
         }
       }
     }
-    stage('Artifact archive') {
-      steps {
-        script {
-          if (fileExists('basiccraft.7z') == false) {
-            sh '''
-              set +x
-              wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z &> /dev/null
-            '''
-          }
-          if (fileExists('somemechanics.7z') == false) {
-            sh '''
-              set +x
-              wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z &> /dev/null
-            '''
-          }
-          archiveArtifacts 'basiccraft.7z'
-          archiveArtifacts 'somemechaincs.7z'
+  }
+  post {
+    always {
+      script {
+        if (!fileExists('basiccraft.7z')) {
+          sh '''
+            set +x
+            wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z &> /dev/null
+          '''
         }
+        if (!fileExists('somemechanics.7z')) {
+          sh '''
+            set +x
+            wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechanics.7z &> /dev/null
+          '''
+        }
+        archiveArtifacts 'basiccraft.7z'
+        archiveArtifacts 'somemechanics.7z'
       }
     }
   }

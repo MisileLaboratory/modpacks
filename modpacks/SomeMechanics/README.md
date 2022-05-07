@@ -1,5 +1,5 @@
 # SomeMechanics 3
 
-Some mechanic mods
+Mechanic modpack
 
 Forge 1.18.2
