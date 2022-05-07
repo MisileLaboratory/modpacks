@@ -18,17 +18,15 @@ pipeline {
         }
       }
     }
-    post {
-      always {
+    stage('Artifact archive') {
         if (!fileExists('basiccraft.7z')) {
           sh 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z'
         }
         if (!fileExists('somemechanics.7z')) {
-          sh 'https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z'
+          sh 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z'
         }
         archiveArtifacts 'basiccraft.7z'
         archiveArtifacts 'somemechaincs.7z'
-      }
     }
   }
 }
