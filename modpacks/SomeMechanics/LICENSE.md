@@ -1,1 +1,1 @@
-Override author information: SomeMechanics by MisileLaboratory, Marope, ajdk
+Override author information: SomeMechanics by MisileLaboratory
