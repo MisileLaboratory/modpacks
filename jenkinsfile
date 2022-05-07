@@ -19,6 +19,7 @@ pipeline {
       }
     }
     stage('Artifact archive') {
+      steps {
         if (!fileExists('basiccraft.7z')) {
           sh 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z'
         }
@@ -27,6 +28,7 @@ pipeline {
         }
         archiveArtifacts 'basiccraft.7z'
         archiveArtifacts 'somemechaincs.7z'
+      }
     }
   }
 }
