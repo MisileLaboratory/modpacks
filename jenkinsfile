@@ -22,16 +22,16 @@ pipeline {
       steps {
         script {
           if (!fileExists('basiccraft.7z')) {
-            sh '''
-            set +x
-            wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z > /dev/null
-            '''
+            sh (
+              script: 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z > /dev/null',
+              returnStdout: false
+            )
           }
           if (!fileExists('somemechanics.7z')) {
-            sh '''
-            set +x
-            wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z > /dev/null
-            '''
+            sh (
+              script: 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z > /dev/null',
+              returnStdout: false
+            )
           }
           archiveArtifacts 'basiccraft.7z'
           archiveArtifacts 'somemechaincs.7z'
