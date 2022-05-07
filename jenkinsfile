@@ -2,7 +2,12 @@ pipeline {
   agent { label "node" }
   stages {
     stage('BasicCraft') {
-      when { anyOf { changeset "modpacks/BasicCraft/*" } }
+      when { 
+        anyOf { 
+          changeset "modpacks/BasicCraft/*"
+          changeset "jenkinsfile" 
+        } 
+      }
       steps {
         dir('modpacks') {
           sh "/home/kakao9992/7zip/7zz a -t7z ../basiccraft.7z BasicCraft/mods/*"
@@ -10,7 +15,12 @@ pipeline {
       }
     }
     stage('SomeMechanics') {
-      when { anyOf { changeset "modpacks/SomeMechanics/*"} }
+      when { 
+        anyOf { 
+          changeset "modpacks/SomeMechanics/*"
+          changeset "jenkinsfile" 
+        } 
+      }
       steps {
         dir('modpacks') {
           sh "/home/kakao9992/7zip/7zz a -t7z ../somemechanics.7z SomeMechanics/mods/*"
