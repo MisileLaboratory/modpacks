@@ -20,13 +20,13 @@ pipeline {
     stage('Artifact archive') {
       steps {
         script {
-          if (!fileExists('basiccraft.7z')) {
+          if (fileExists('basiccraft.7z') == false) {
             sh '''
               set +x
               wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z &> /dev/null
             '''
           }
-          if (!fileExists('somemechanics.7z')) {
+          if (fileExists('somemechanics.7z') == false) {
             sh '''
               set +x
               wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z &> /dev/null
