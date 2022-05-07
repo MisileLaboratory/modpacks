@@ -1,4 +1,3 @@
-
 pipeline {
   agent { label "node" }
   stages {
@@ -25,7 +24,7 @@ pipeline {
             sh 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/basiccraft.7z &> /dev/null'
           }
           if (!fileExists('somemechanics.7z')) {
-            sh 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z &> /dev/null',
+            sh 'wget https://jenkins.misilelaboratory.xyz/job/modpack-build/lastSuccessfulBuild/artifact/somemechaincs.7z &> /dev/null'
           }
           archiveArtifacts 'basiccraft.7z'
           archiveArtifacts 'somemechaincs.7z'
