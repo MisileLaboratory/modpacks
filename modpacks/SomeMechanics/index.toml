@@ -1,0 +1,349 @@
+hash-format = "sha256"
+
+[[files]]
+file = "README.md"
+hash = "036412a4314c9973f5695907372a118c0c50eff83c31c1916c0a2672a8c79fca"
+
+[[files]]
+file = "mods/AE2WTLib-11.0.0-alpha.2.jar"
+hash = "4117e6f3f3c5f8f9d417b0b8d9c4c008e79c84ecd519b8e497c7c67da57622d8"
+
+[[files]]
+file = "mods/AEInfinityBooster-1.18.2-1.1.0+8.jar"
+hash = "c80d8efc2fad88706e7a367878b415709b6f230d6a2dbe6132156811a005e692"
+
+[[files]]
+file = "mods/AdditionalEnchantedMiner-1.18.2-18.10.jar"
+hash = "3dfe271104e36d6a0131f2b33cd9f3b837788672e9d21cd5094743f17aeeccde"
+
+[[files]]
+file = "mods/AdvancementPlaques-1.18.1-1.4.2.jar"
+hash = "defcec4f7694dd5f8bc8cc4b612979e8218a63ba141cf471ce3d950250bf2a0a"
+
+[[files]]
+file = "mods/AdvancementPlaques-1.18.2-1.4.3.jar"
+hash = "93b6619bf513d431079883edc69a1b1315aec319a7cfb65b7954b27a29bc0533"
+
+[[files]]
+file = "mods/BetterAdvancements-1.18.2-0.2.0.129.jar"
+hash = "c312bedc209874ea4acbea6c15867687afbd383f68565a06f0e3abd88561cefd"
+
+[[files]]
+file = "mods/Beyond-Earth-1.18.2-6.1.jar"
+hash = "39f2405ff4080b2b1deff0deab65a27e1ec1a4914bfd388b2902854fddf6fb99"
+
+[[files]]
+file = "mods/Beyond-Earth-Giselle-Addon-1.18.2-2.8.jar"
+hash = "eb6edb509268cffd78e9351604af97f108486942b725d41f0355ba8b14fae901"
+
+[[files]]
+file = "mods/Bookshelf-Forge-1.18.2-13.0.13.jar"
+hash = "dfeae68b394ef8413f0e8c4c8bee867c9f4d782d95d1ae79601c661cc851ab45"
+
+[[files]]
+file = "mods/BowInfinityFix-1.18.x-rv11.jar"
+hash = "5fc176cf1b9f4fa1dcacc1d0c6b38350089937284df8d5b0a184b6004fb29d07"
+
+[[files]]
+file = "mods/CTM-1.18.2-1.1.4+4.jar"
+hash = "7c249982588a563ae1641ace6900bd9d7fb303d5a58afc701f9d6ea175fab8e9"
+
+[[files]]
+file = "mods/ClickMachine-1.18.2-6.0.5.jar"
+hash = "dc18bd8465ef185c01e7f5113fd2d5b8cb2c06808d31d02cc84fd73a5e7a8587"
+
+[[files]]
+file = "mods/CreateLive3Addon-forge-1.18.2-1.3.0.jar"
+hash = "152a64d479a968f832ac5ec47611798dcd61947fd9125c039a8ce6a5a207915a"
+
+[[files]]
+file = "mods/Cucumber-1.18.2-5.1.0.jar"
+hash = "219646af7f63adcc6132c36c842be153908f70ee36efa66ecf8e315881ee8a8d"
+
+[[files]]
+file = "mods/CustomLAN-1.18.1-18.1.2.jar"
+hash = "1f3726ab9e8c14e1967cb8ed7d6bd2243b3e8340ed6e98d1f83f626ee627908b"
+
+[[files]]
+file = "mods/Cyclic-1.18.2-1.7.0.jar"
+hash = "2023596c29fecd9ef50e2779e20b92387179683fa3ad6e48514bcbb67777facb"
+
+[[files]]
+file = "mods/EnchantmentDescriptions-Forge-1.18.2-10.0.3.jar"
+hash = "ada264fbdd4fd3dc183aaf1ef8f37a5d00c64344f063789d57e90c0e23f7ff55"
+
+[[files]]
+file = "mods/ExperienceBugFix-1.18-1.38.0.2.jar"
+hash = "0fadc3667e47c02f3236f74fbc29d1de24e5b330cd898e6cc2ce27e873171dfb"
+
+[[files]]
+file = "mods/ExtraStorage-1.18.2-2.1.0.jar"
+hash = "04a921f3cb8037cd751762f098eb55cb168744e00d3a9f5b75a316ad28c960f5"
+
+[[files]]
+file = "mods/HammerLib-1.18.2-18.2.16.jar"
+hash = "b2ee57735564793cce9de984730d7800dd22a82197499464bbf4fa1a70eccd34"
+
+[[files]]
+file = "mods/Iceberg-1.18.2-1.0.40.jar"
+hash = "8cc546e8c40b2777bf7f9ab40cb8bbf42b5eade82236aaa791e90d7364229553"
+
+[[files]]
+file = "mods/ImmersiveEngineering-1.18.2-8.0.1-147.jar"
+hash = "115d3cbb71b67a637e2dcc9bbf819e21823082d4dda3014144431769fa1a663c"
+
+[[files]]
+file = "mods/IronJetpacks-1.18.2-5.1.0.jar"
+hash = "7faef92682b0df851da61c49d1aec1b58fd970aea24567c1360eab1e49d3ba4d"
+
+[[files]]
+file = "mods/Jade-1.18.2-5.1.0.jar"
+hash = "0c6f8c6fad1b898a8c36316012fc5b4123ecd1f0c6bdcc67cbe1f74ac6b8d83b"
+
+[[files]]
+file = "mods/JustEnoughResources-1.18.2-0.14.1.167.jar"
+hash = "e9d12cfdb9757693915f467dd4beb96b9c3780d3a0a89d7a1e94f901fceda135"
+
+[[files]]
+file = "mods/Mekanism-1.18.2-10.2.0.459.jar"
+hash = "c27ba0debb5dd60ad031c26f34ceb185b83cd4ff078553a35621d7bd0d416b67"
+
+[[files]]
+file = "mods/MekanismAdditions-1.18.2-10.2.0.459.jar"
+hash = "eefd64dcd3d1e2ebf9905a22c05bfe8f8e61f103081d436257ebdb8b9e75eddd"
+
+[[files]]
+file = "mods/MekanismGenerators-1.18.2-10.2.0.459.jar"
+hash = "8e9a99c38f53c7b678fd087f9db3a88f36668a1e42756582d916bc152d66c0dd"
+
+[[files]]
+file = "mods/MekanismTools-1.18.2-10.2.0.459.jar"
+hash = "ee63c8b08efbeaf63813209aad6bf661a47a63a1b696aeb7ea37e0dac45f3366"
+
+[[files]]
+file = "mods/MoreMekanismProcessing-1.18.2-2.4.jar"
+hash = "590819697972882cba1edef89a89e248a3873ac386c90b5ff4c68d5c2dea12a1"
+
+[[files]]
+file = "mods/MysticalAgradditions-1.18.2-5.1.1.jar"
+hash = "1dd0e4ec9e401fe8c5ef51b7ce0a08765b269d6b4b31a54e2980eccf4eba8b6a"
+
+[[files]]
+file = "mods/MysticalAgriculture-1.18.2-5.1.0.jar"
+hash = "285ee2ab970a8ef5ed05f62291a2a55338ad7cf67e2cb7ca0895c26969a236cf"
+
+[[files]]
+file = "mods/Patchouli-1.18.2-67.jar"
+hash = "1bb51b389497bf7b8e191970b289b61c8cad4f9877c702cca2ab6b41f7299d81"
+
+[[files]]
+file = "mods/Placebo-1.18.2-6.4.0.jar"
+hash = "ed4b61687958c00efb63cfbc1de634543a1ab93abe25ba6cc6c33343b7ae8ac8"
+
+[[files]]
+file = "mods/ScalableCatsForce-2.13.8-build-4-with-library.jar"
+hash = "30433bd4e12594fcd6cc57c2fbe114d264d339e26c694c2c6ef27da409636771"
+
+[[files]]
+file = "mods/SuperCircuitMaker2-0.2.4+1.18.2.jar"
+hash = "7a4b6b6fa49f9900a39f99f57e4b59e387d8728a40f7784b5a82b33d1e1bad0a"
+
+[[files]]
+file = "mods/TKLib-0.0.11+1.18.2.jar"
+hash = "b0c27028ae7644ca41e1cef8e8d25ef28aad3e0d6c19376061b29685ca597fee"
+
+[[files]]
+file = "mods/ZeroCore2-1.18.2-2.1.16.jar"
+hash = "a0aecbef87f1cdd119e551c969c9777aebe3305c188a0208cab93900a6ab22d6"
+
+[[files]]
+file = "mods/[1.18.2] SecurityCraft v1.9.1.jar"
+hash = "a4cf9a254d01440817f0d9894785bbed85a53cfd0fa2e60acf98203010809088"
+
+[[files]]
+file = "mods/advancedperipherals-1.18.2-0.7.14b.jar"
+hash = "81d6fe9188c5b2c74d5a380ae099350ee63054bd5a06cbc3ba937d3d927dd4e6"
+
+[[files]]
+file = "mods/advancementframes-1.18.2-1.0.7.jar"
+hash = "4ef2d517653d549cae07da6c2041781df38e5e2159972749f8d55d6f07a890d9"
+
+[[files]]
+file = "mods/advancementscreenshot_1.18.2-3.2.jar"
+hash = "e353c6b821dcbdd3bc1c2eb7aa06dfd88e42edba11d106e1b3315c43ef55f440"
+
+[[files]]
+file = "mods/alchemistry-1.18.2-5.jar"
+hash = "5776845cd4ff8eacc49a3ec90d4653e5629ad1319d47f2a3c7e3c3518a1555b6"
+
+[[files]]
+file = "mods/alib-1.18.2-2.jar"
+hash = "d02ddb1aaf4c0f090a22a3efd0c97670b12f999718d3bc6a542b0276271aaee5"
+
+[[files]]
+file = "mods/alloyed-1.18.2-v1.3b.jar"
+hash = "96540c228cb512afc331baee75f6b413dd6065574ac9fb1c6aa2896220ef6a8a"
+
+[[files]]
+file = "mods/appleskin-forge-mc1.18-2.4.0.jar"
+hash = "bdfe74a63a8c624113ca673c22943a360dec7912e0be9303af5354142578521d"
+
+[[files]]
+file = "mods/appliedenergistics2-11.0.0-alpha.6.jar"
+hash = "9432dd931e8ac2a62dea6932b5bc53a2b9967af6565b9c8ff450f540bb4704b5"
+
+[[files]]
+file = "mods/architectury-4.4.54.jar"
+hash = "4d7179d8802a39cc033da2d0d440fd352b3050f74b95c7cda0bdf362b72da690"
+
+[[files]]
+file = "mods/architectury-4.4.58.jar"
+hash = "4bc001a088c1f323a98259dd7706fed50338cb50a2d95c9b5d283c22889e6ce2"
+
+[[files]]
+file = "mods/bdlib-1.19.3.7-mc1.18.2.jar"
+hash = "3ce4d0bdeabcffc6c7551a00e13ce925a498e08ee2747b6cc84d6e01fe25fe49"
+
+[[files]]
+file = "mods/camera-1.18.2-1.0.3.jar"
+hash = "71f6c76aa0a9a0d1b118f92ab0389eabf34083e3110968f53db644bb8fb23172"
+
+[[files]]
+file = "mods/car-1.18.2-1.0.2.jar"
+hash = "fd8cea493a2e395ac3f94a65eff444389f627b440646a361e97b6d474a5f5857"
+
+[[files]]
+file = "mods/cc-tweaked-1.18.2-1.100.5.jar"
+hash = "45ffe6e9c58c4a547cf1a117b19dac940d62b8dec15ab163065975912d8f985a"
+
+[[files]]
+file = "mods/chemlib-1.18.2-2.jar"
+hash = "b357eac0bd5e90649a4c081362cd1e72d284edb130e05169f70f34c0efae7b2f"
+
+[[files]]
+file = "mods/chunkloaders-1.1.12-mc1.18.jar"
+hash = "e1283fecd9e5156b3f9e49832eda7e953a01e05abcb726e7904ab9c5842ef9aa"
+
+[[files]]
+file = "mods/clickadv-1.18.2-2.5.jar"
+hash = "df1fc9a5a457257fc795924c2dbd83a81bc59c0647d3692711ccb9de50b8bb89"
+
+[[files]]
+file = "mods/cloth-config-6.2.62-forge.jar"
+hash = "46a84bb000412eabeb8330a446f0efe651d4218edb32434a14476cdc6197c01c"
+
+[[files]]
+file = "mods/collective-1.18.2-4.25.jar"
+hash = "8eb279e0f7d1ed62cc13087dfa317782b32b7af9f49ec9863fe85d0fd4a28adb"
+
+[[files]]
+file = "mods/connectivity-1.18.2-2.9.jar"
+hash = "129f8e5c24ff89825211fbe3011743e09c17d737ece7935f552be4791eacb688"
+
+[[files]]
+file = "mods/create-chromaticreturn1.18.2_v1.1.jar"
+hash = "0e37dbbf28c2f38095648a203162894902e76c12a4e547cbbd7056a051935e94"
+
+[[files]]
+file = "mods/create-confectionery1.18.2_v1.0.6.jar"
+hash = "ea3760e14ac6187801972398d3af300ddb77a70f3992cbbb40abd5db4b5d9821"
+
+[[files]]
+file = "mods/create-mc1.18.2_v0.4.1.jar"
+hash = "bb1db7e7cb722c61427fe639aa60700fccce1ac0b5cca39f068a642b1b067271"
+
+[[files]]
+file = "mods/create-stuff-additions1.18.2_v1.1.5.jar"
+hash = "063d445a5e0f9514cceafe6cfc9627e420de8cec59f33cb74e6c8957f6ed33ac"
+
+[[files]]
+file = "mods/createaddition-1.18.2-20220424a.jar"
+hash = "c464e55ed30ac834df88bfd2dd77491b85f2ec64b33bc94668dfc2c14ea157a8"
+
+[[files]]
+file = "mods/createcafe-1.3-1.18.2.jar"
+hash = "602fd8bee10b2bbfda96ee729b41bac686e01d89ba312b8ef1ccdcfbbf65da27"
+
+[[files]]
+file = "mods/createdeco-1.2.7-1.18.2.jar"
+hash = "6bcee9ada04450203234a0a094b100d4e0e9bf146783f99b0905758ee2c030e5"
+
+[[files]]
+file = "mods/curios-forge-1.18.2-5.0.7.0.jar"
+hash = "d3995b068ddbcd4ed7639012e6d7d5aed70c7d004d21ff7c9160ff97a413acd8"
+
+[[files]]
+file = "mods/easy_villagers-1.18.2-1.0.4.jar"
+hash = "0ca1275cff7418a30cc07b8eddf22ec97cd9215bd92f351e21497a54040dabc3"
+
+[[files]]
+file = "mods/flywheel-forge-1.18-0.6.2.jar"
+hash = "9d69b2abe440b39051cd2a366c7e7e9429c85d709632b65c853989f4f0581705"
+
+[[files]]
+file = "mods/jei-1.18.2-9.7.0.194.jar"
+hash = "0da5c59fd5a5cddb166a27af15888cdcd7203ceb10838bb602ba8a2945b80ad0"
+
+[[files]]
+file = "mods/mcjtylib-1.18-6.0.13.jar"
+hash = "1eeda6eb2309aa2e2beda96ff942000c34f6bcb5d9a93b21292e1253cee061aa"
+
+[[files]]
+file = "mods/notenoughcrashes-4.1.4+1.18.2-forge.jar"
+hash = "978c63d1ee143a754c278e20aadb9bcff34a0a6993a6a3527dab90d70cb815e8"
+
+[[files]]
+file = "mods/plane-1.18.2-1.0.0.jar"
+hash = "c5117bec38725de108363ad7c139df4c2867924f19ba4deddf3bece54f6d8ac7"
+
+[[files]]
+file = "mods/pneumaticcraft-repressurized-1.18.2-3.2.1-75.jar"
+hash = "9fac80fa7329f6b5aeb384e9368a6bef070f806ddcd94b136bed36b44fb6cee1"
+
+[[files]]
+file = "mods/refinedstorage-1.10.2.jar"
+hash = "ffb3888a179adb4e864f6d645658fa9442cfe39185a4753d7dbdac2a2c1d9f5a"
+
+[[files]]
+file = "mods/refinedstorageaddons-0.8.2.jar"
+hash = "87bb2fef3ddfaada6af5086cb7c4cf9429af5b9ca6f2417eaf928df3bba93828"
+
+[[files]]
+file = "mods/rftoolsbase-1.18-3.0.7.jar"
+hash = "5fc92632949e82cd0d40bdc8adecd7475606a4d968364b8dff68cb07e2c47bea"
+
+[[files]]
+file = "mods/rftoolsdim-1.18-8.0.4.jar"
+hash = "51ec9f47d9aff99ede63f74cb358ec8bcc1d46eec4a2462944f9f2cb32edec91"
+
+[[files]]
+file = "mods/rftoolsutility-1.18-4.0.14.jar"
+hash = "18487f21b97f789525a1b78c10c655ad4b90f7d49b4e596e2479894273e061ca"
+
+[[files]]
+file = "mods/speedyhoppers-1.18.2-1.jar"
+hash = "a1cd850e3123bde6db374cca6528bf4cd91c5d5f6e68526b6db9fad58dbdd4f5"
+
+[[files]]
+file = "mods/steampowered-1.18.2-2.0.2-alpha.jar"
+hash = "da8bfab017e18bf1b0d0535d01473e8f957affd7f84708c7de3b22bba76a6f69"
+
+[[files]]
+file = "mods/supermartijn642configlib-1.0.9-mc1.18.jar"
+hash = "fc06f5d759a88f57689cc21392ce671cec640447fbe8d604911c50ea9850c7e6"
+
+[[files]]
+file = "mods/supermartijn642corelib-1.0.18-forge-mc1.18.jar"
+hash = "7ba62637bb28ab1769058c90f00ee67dbaf3b965f02d5396f5db6415f0fa0fa7"
+
+[[files]]
+file = "mods/wirelesschargers-1.0.6-forge-mc1.18.jar"
+hash = "146ff0d547c7015a360ee1720fb154592a2e92da6953e27355b44b8daee5663b"
+
+[[files]]
+file = "mods/worldedit-mod-7.2.10.jar"
+hash = "3d7f06f7a208f58e212e8d0dd7cdb0f14e8f0b8a448f8358f872777fb0bfad4d"
+
+[[files]]
+file = "mods/xnet-1.18-4.0.5.jar"
+hash = "691943c682ae93d7ae85c0f22b456931e8a22fd77ee7ab114f8a4559d273bd6f"

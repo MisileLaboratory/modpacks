@@ -1,0 +1,13 @@
+name = "SomeMechanics"
+author = "MisileLaboratory"
+version = "1.0.0"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "6fa3457e8c8c0705f5aeaa3b5c5cb0cd92f22e8ea5a5d00f5c7fcae0e868e823"
+
+[versions]
+forge = "40.1.19"
+minecraft = "1.18.2"
