@@ -2,4 +2,4 @@
 
 Client-side mods modpack.
 
-Fabric 1.18.2
+Quilt 1.18.2
